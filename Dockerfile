@@ -8,6 +8,6 @@ RUN apt-get update
 RUN apt-get install -y default-jdk
 RUN pip install -r requirements.txt
 
-EXPOSE 8080/tcp
+EXPOSE 80/tcp
 CMD python3 main.py
 
