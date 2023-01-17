@@ -1,0 +1,4 @@
+tika
+fastapi
+uvicorn[standard]
+python-multipart
